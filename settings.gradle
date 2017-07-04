@@ -1,1 +1,1 @@
-include ':dimens-example', ':dimens-maker', ':lib-dimens-750x1334'
+include ':dimens-example', ':dimens-maker', ':dimens'

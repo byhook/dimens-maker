@@ -7,7 +7,7 @@
     tools:context="cn.byhook.dimensmaker.MainActivity">
 
     <TextView
-        android:layout_width="@dimen/px_375"
+        android:layout_width="@dimen/px_667"
         android:layout_height="@dimen/px_120"
         android:background="@color/colorAccent" />
 

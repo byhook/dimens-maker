@@ -29,7 +29,7 @@ public class MakeUtils {
      * 留作备份,方便以后扩展更正
      */
     private static final String XML_BASE_WIDTH = "<dimen name=\"base_width\">%dpx</dimen>\r\n";
-    private static final String XML_BASE_HEIGHT = "<dimen name=\"base_heigth\">%dpx</dimen>\r\n";
+    private static final String XML_BASE_HEIGHT = "<dimen name=\"base_height\">%dpx</dimen>\r\n";
     private static final String XML_BASE_DPI = "<dimen name=\"base_dpi\">%ddp</dimen>\r\n";
 
     /**

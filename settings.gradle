@@ -1,1 +1,1 @@
-include ':dimens-example', ':dimens-maker', ':dimens'
+include ':example', ':dimens', ':maker'

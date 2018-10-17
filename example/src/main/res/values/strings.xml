@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">DimensMaker</string>
+    <string name="screen_notify_info">分辨率: 1080x2160 &#x000A; 屏幕密度: 2.75 &#x000A;屏幕像素密度: 440</string>
 </resources>

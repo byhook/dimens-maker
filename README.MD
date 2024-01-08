@@ -92,11 +92,11 @@ result = x * (tw/ow) / (n/160)dp
 来看看最终的适配效果
 设计稿尺寸为`750x1334`   宽度写上`dimen_px_375`的效果如下
 
-![](./screenshots/screenshots1.png)
+![](./screenshots/screenshots1.webp)
 
-![](./screenshots/screenshots2.png)
+![](./screenshots/screenshots2.webp)
 
-![](./screenshots/screenshots3.png)
+![](./screenshots/screenshots3.webp)
 
 不同屏幕密度的分布情况（可以看看DisplayMetrics里的声明）：
 

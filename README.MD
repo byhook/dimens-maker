@@ -21,7 +21,7 @@ px = dp * (dpi / 160)
 ```
 好了，有了上面几个概念之后，再来看一张genymotion模拟器的图：
 
-![](http://upload-images.jianshu.io/upload_images/2006464-f567a8f896e1428c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](./screenshots/genymotion.webp)
 
 我们会发现同一个分辨率会对应不同的dpi，而不同的分辨率可能会对应同一个dpi
 
@@ -92,11 +92,11 @@ result = x * (tw/ow) / (n/160)dp
 来看看最终的适配效果
 设计稿尺寸为`750x1334`   宽度写上`dimen_px_375`的效果如下
 
-![](https://raw.githubusercontent.com/byhook/dimens-maker/master/screenshots/screenshots1.png)
+![](./screenshots/screenshots1.png)
 
-![](https://raw.githubusercontent.com/byhook/dimens-maker/master/screenshots/screenshots2.png)
+![](./screenshots/screenshots2.png)
 
-![](https://raw.githubusercontent.com/byhook/dimens-maker/master/screenshots/screenshots2.png)
+![](./screenshots/screenshots3.png)
 
 不同屏幕密度的分布情况（可以看看DisplayMetrics里的声明）：
 
@@ -107,8 +107,7 @@ result = x * (tw/ow) / (n/160)dp
 | tvdpi | 213     |    133% |Google Nexus 7|
 | hdpi | 240     |    150% |Sumsong Glaxy S2， Google Nexus S， MOTO Droid|
 | xhdpi | 320     |    200% |Sumsong Glaxy S3， Sumsong Note2， Google Nexus 4|
-| xxhdpi | 480     |    300% |目前市场上各品牌的旗舰机：Sumsong Glaxy S4、 Asus Padfone Infinite、HTC One、 小米3
-|
+| xxhdpi | 480     |    300% |目前市场上各品牌的旗舰机：Sumsong Glaxy S4、 Asus Padfone Infinite、HTC One、 小米3|
 | xxxhdpi | 640     |    400% | 部分最新的旗舰机|
 
 优先级

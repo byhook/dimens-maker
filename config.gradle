@@ -1,0 +1,20 @@
+ext {
+
+    versions = [
+            'compileSdk'              : 33,
+            'minSdk'                  : 21,
+            'targetSdk'               : 33,
+            'applicationId'           : 'io.github.byhook.dimens',
+
+            'appcompatVersion'        : '1.4.1',
+            'materialVersion'         : '1.6.0',
+            'constraintlayoutVersion' : '2.1.3',
+            'junitVersion'            : '4.13.2',
+            'junitExtVersion'         : '1.1.3',
+            'espressoVersion'         : '3.4.0',
+
+            'coreKtxVersion'          : '1.9.0',
+    ]
+
+
+}
